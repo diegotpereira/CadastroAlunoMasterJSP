@@ -10,9 +10,9 @@
 <body>
 
  <div align="center">
-  <H1>Seja bem vindo ao sistema AcademicNet!</H1>
+  <H1>Seja bem vindo ao sistema de cadastro!</H1>
   <H2>Nesta versão utilizaremos as tecnologias: JSP + JSTL + Servlet + JDBC + MYSQL.</H2>
-  <a href="menu.jsp"> <img src="imagem/AcemicNet.png">
+  <a href="menu.jsp"> <img src="imagem/icone.png">
   </a>
  </div>
 

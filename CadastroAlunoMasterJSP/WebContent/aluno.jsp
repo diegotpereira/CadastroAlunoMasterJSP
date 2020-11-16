@@ -13,17 +13,12 @@
   <form method="post" action="AlunoServlet">
    <fieldset>
     <legend>Cadastro de Alunos</legend>
-    <label>Matrícula: 
-    
-      </label>
-      <input name="matricula" required value="${aluno.matricula}" placeholder="2236541" /><br /> 
-      
-      <label>Name:
-      
-      </label><input name="nome" autofocus="autofocus" placeholder="Nome" value="${aluno.nome}" /><br /> 
-      
-      <label>Telefone:
-      </label><input type="tel" name="telefone" placeholder="9999-9999"
+    <label>Matrícula: </label> <input name="matricula" required
+     value="${aluno.matricula}" placeholder="2236541" /><br /> <label>Name:
+
+    </label><input name="nome" autofocus="autofocus" placeholder="Nome"
+     value="${aluno.nome}" /><br /> <label>Telefone: </label><input
+     type="tel" name="telefone" placeholder="9999-9999"
      value="${aluno.telefone}" /><br /> <label>Email:</label><input
      type="email" name="email" placeholder="andre@feltex.com.br"
      value="${aluno.email}" /><br /> <label>Data Cadastro:</label><input
